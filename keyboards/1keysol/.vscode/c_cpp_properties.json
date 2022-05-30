@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/anish/Github/qmk_firmware/quantum/**",
+                "/Users/anish/Github/qmk_firmware/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "macos-gcc-arm"
+        }
+    ],
+    "version": 4
+}

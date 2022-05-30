@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * COLS: AVR pins used for columns, left to right
  * ROWS: AVR pins used for rows, top to bottom
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
- *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
+ *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)j
  *
 */
 #define MATRIX_ROW_PINS { B0, B1, B2, B3, D0, D1, B5, B6, D7, B4, D6, D4 }
@@ -49,6 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
+#define SOLENOID_PIN E6
 #define BACKLIGHT_PIN B7
 // #define BACKLIGHT_BREATHING
 #define BACKLIGHT_LEVELS 3

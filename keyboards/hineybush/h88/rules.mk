@@ -1,4 +1,4 @@
-# MCU name
+# MCU nameb
 MCU = atmega32u4
 
 # Bootloader selection
@@ -13,7 +13,9 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no        # Console for debug
 COMMAND_ENABLE = no        # Commands for debug and configuration
 NKRO_ENABLE = no            # Enable N-Key Rollover
-BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = yes       # Enable RGB underglow
+BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no       # Enable RGB underglow
 AUDIO_ENABLE = no           # Audio output
 LTO_ENABLE = yes
+HAPTIC_ENABLE = yes
+HAPTIC_DRIVER = SOLENOID
