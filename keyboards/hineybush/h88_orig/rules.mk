@@ -1,4 +1,4 @@
-# MCU nameb
+# MCU name
 MCU = atmega32u4
 
 # Bootloader selection
@@ -17,5 +17,3 @@ BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes       # Enable RGB underglow
 AUDIO_ENABLE = no           # Audio output
 LTO_ENABLE = yes
-HAPTIC_ENABLE = yes
-HAPTIC_DRIVER = SOLENOID
